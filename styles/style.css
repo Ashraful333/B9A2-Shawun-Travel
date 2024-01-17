@@ -1,17 +1,15 @@
-/* * {
-    width: 1440px;
-    height: 6940px;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
 
-header {
-    padding: 50px 140px;
-}
-
-.icon {
+/* .icon {
     width: 48px;
     height: 56.008px;
     flex-shrink: 0;
+} */
 
+
+.container {
+    width: 85%;
+    margin: 0 auto;
 }
 
 .banner-title {
@@ -36,11 +34,6 @@ header {
     font-style: normal;
     font-weight: 800;
 }
-
-
-
-
-
 
 nav {
     display: flex;
@@ -69,4 +62,186 @@ nav li a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+
+/* Explore Your Travel section started */
+
+.first-img {
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 500px;
+    background-size: cover;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+
+.explore-traveling {
+    color: #FFF;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.exp-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.form {
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 32px 380px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+input[type=text] {
+    padding: 16px;
+}
+
+.where {
+    color: rgba(19, 19, 24, 0.50);
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.dropdown {
+    height: 52px;
+    width: 174px;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+
+}
+
+/* our-popular-tour section */
+
+.our-popular-tour {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.txt {
+    height: 540px;
+    width: 577px;
+    margin-bottom: 24px;
+
+}
+
+.txt h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 0 auto;
+    margin-bottom: 24px;
+
+
+
+}
+
+.txt p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+
+
+}
+
+.txt li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+
+
+
+}
+
+
+.second-img {
+    width: 540px;
+    height: 550px;
+    margin-bottom: 70px;
+}
+
+
+.chooce-des h1 {
+    color: #131318;
+    justify-content: center;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+
+}
+
+.chooce-des p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+
+
+}
+
+/* Img griding section */
+
+.first-row {
+    display: flex;
+    height: 300px;
+    gap: 5px;
+    margin-bottom: 5px ;
+    
+
+   
+
+
 }
